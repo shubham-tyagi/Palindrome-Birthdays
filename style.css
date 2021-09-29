@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+	margin: 0px;
+	font-family: "Open Sans", sans-serif;
+	background-color: #059669;
+}
+.main {
+	color: black;
+	font-weight: bold;
+	background: linear-gradient(to top left, #28b487, #7dd56f);
+	display: block;
+	max-width: 400px;
+	padding: 2rem;
+	margin: 0rem auto;
+	margin-top: 12%;
+	border-radius: 2rem;
+	border: 5px solid black;
+}
+
+.main h1 {
+	text-align: center;
+}
+
+.main input {
+	display: inline-block;
+	margin: 0rem auto;
+	text-align: center;
+	padding: 0.3rem 0.8rem;
+	border-radius: 0.5rem;
+}
+
+.main button {
+	padding: 0.4rem 0.9rem;
+	border-radius: 0.5rem;
+}
+
+.link-style {
+	text-decoration: none;
+	color: var(--off-white);
+}
+
+.footer {
+	position: fixed;
+	margin-top: 2rem;
+	/* margin: 2rem 0rem; */
+	background-color: #047857;
+	padding: 1rem 0rem;
+	border-top-right-radius: 4rem;
+	border-top-left-radius: 4rem;
+	/* max-width: 70rem; */
+	color: var(--off-white);
+	text-align: center;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.footer ul {
+	padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+	font-weight: bold;
+	font-size: large;
+}
+
+.footer .list-non-bullets {
+	list-style-type: none;
+}
+
+.footer .list-item-inline {
+	display: inline;
+	margin: 0rem 2rem;
+}
+
+.footer .img-social {
+	width: 2rem;
+}
