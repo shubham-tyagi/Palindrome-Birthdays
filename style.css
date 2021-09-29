@@ -43,8 +43,7 @@ body {
 }
 
 .footer {
-	position: fixed;
-	margin-top: 2rem;
+	margin-top: 6rem;
 	/* margin: 2rem 0rem; */
 	background-color: #047857;
 	padding: 1rem 0rem;
