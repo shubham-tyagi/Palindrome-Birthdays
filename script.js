@@ -25,7 +25,17 @@ function onBtnSubmit() {
 	setTimeout(onBtnSubmitHandler, 3000);
 }
 function onBtnSubmitHandler() {
+	console.log(enteredDate.value);
 	dateObj = setDateObj(enteredDate.value);
+	if (!dateObj.dd && !dateObj.mm && !dateObj.yy) {
+		writeMessage("Please enter a date and then click submit");
+		return;
+	}
+	if (dateObj.yy > 9999) {
+		writeMessage("the year should be less than 9999");
+		return;
+	}
+	console.log(dateObj);
 	dateObj.mm += 1;
 	var diffDateTypes = getDateTypes(dateObj);
 	var isDiffDatePalindrome = isDiffPalindrome(diffDateTypes);
